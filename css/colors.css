@@ -26,6 +26,18 @@
     color: #f8f9fa!important;
 }
 
+.btn-secondary-2{
+    background-color: #f8f9fa !important;
+    border-color: #1F3747 !important;
+    color: #1F3747 !important;
+}
+
+.btn-secondary-2:hover{
+    background-color: #212529 !important;
+    border-color: #f8f9fa !important;
+    color: #f8f9fa !important;
+}
+
 .bg-muted{
     background-color: #f8f9fa !important;
 }
