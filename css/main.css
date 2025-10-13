@@ -42,22 +42,22 @@ a {
 }
 
 a.nav-link:hover {
-    box-shadow: 0 2px #3A468C !important;
+    box-shadow: 0 2px #D2B48C !important;
 }
 
 ul.nav-pill >.nav-item > .active{
-    box-shadow: 0 2px #3A468C !important;
-    color: #3A468a !important;
+    box-shadow: 0 2px #D2B48C !important;
+    color: #D2B48C !important;
 }
 
 ul.nav-pill >.nav-item >.nav-link{
-    color: #a0a2a3;
-    box-shadow: 0 1px #a0a2a3;
+    color: #666;
+    box-shadow: 0 1px #666;
 }
 
 ul.nav-pill >.nav-item >.nav-link:hover{
-    color: #828485;
-    box-shadow: 0 2px #a0a2a3;
+    color: #D2B48C;
+    box-shadow: 0 2px #D2B48C;
 }
 
 nav{
@@ -65,7 +65,7 @@ nav{
 }
 
 nav .span-border-text{
-    text-shadow: -1px 0 #3A468C, 0 1px #3A468C, 1px 0 #3A468C, 0 -1px #3A468C;
+    text-shadow: -1px 0 #D2B48C, 0 1px #D2B48C, 1px 0 #D2B48C, 0 -1px #D2B48C;
 }
 
 .linha_vertical{
@@ -96,6 +96,20 @@ nav .span-border-text{
 
 img{
     max-width: 100%;
+}
+
+/* Estilo para cards dos egressos */
+#egressos .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#egressos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(210, 180, 140, 0.3) !important;
+}
+
+#egressos .card img {
+    border-radius: 8px;
 }
 /* .gallery-img{
     width: 100%;
